@@ -40,5 +40,14 @@ footer {
 .card {
 display: flex;
 justify-content: space-evenly;
+flex-direction: row;
+align-items: flex-end;
 
+
+}
+.p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: justify;
 }
