@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
 
 body {
-  background: #f1f0f0;
+  background: white;
   color: #333;
   font-family: "Nunito";
 }
@@ -37,3 +37,8 @@ footer {
   border-top: 1px solid #eaeaea;
 }
 
+.card {
+display: flex;
+justify-content: space-evenly;
+
+}

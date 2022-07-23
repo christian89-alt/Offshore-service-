@@ -16,9 +16,7 @@ const About = () => {
             <p>
             Proident nisi ipsum labore adipisicing commodo. Velit amet irure nisi laboris anim laboris ut adipisicing esse pariatur. Deserunt irure anim duis sunt deserunt. Nisi cupidatat tempor et et minim Lorem quis cillum consectetur id sit. Dolore qui pariatur consequat sint. Mollit nisi et consectetur ut eiusmod. Nisi cillum anim consequat exercitation.
             </p>
-            <card>
-                
-            </card>
+            
         </div>
      );
 }

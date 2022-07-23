@@ -7,7 +7,15 @@ const Navbar =()=> {
   return(
     <nav>
       
-      <div className="logo">
+      <div className="logo" role="navigation" aria-label="menu de navigation">
+      <div class="navbar-brand">
+    
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
         <Image src="/logo.png" width={128} height={77} />
       </div>
       <Link href="/"><a>Accueil</a></Link>
