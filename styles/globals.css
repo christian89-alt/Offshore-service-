@@ -21,6 +21,10 @@ nav {
   justify-content: flex-end;
   align-items: flex-end;
   border-bottom: 1px solid #ddd;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: white;
+  background-color:rgb(7, 6, 6);
 }
 nav a {
   margin-left: 12px;

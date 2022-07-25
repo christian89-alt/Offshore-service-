@@ -1,12 +1,13 @@
 import Link from "next/link";
 import Image from "next/image"
+import style from "../styles/Home.module.css";
 
 
 
 const Navbar =()=> {
 
   return(
-    <nav>
+    <nav className="nav">
       
       <div className="logo" role="navigation" aria-label="menu de navigation">
       <div class="navbar-brand">
@@ -20,9 +21,9 @@ const Navbar =()=> {
         <Image src="/logo.png" width={128} height={77} />
       </div>
       <Link href="/"><a>Accueil</a></Link>
-      <Link href="/about"><a>Création site internet </a></Link>
-      <Link href="/portfolio"><a>Développement mobile </a></Link>
-      <Link href="/portfolio"><a>Gestion de projet </a></Link>
+      <Link href="/dev web"><a>Développement web & Mobile </a></Link>
+      <Link href="/entreprenariat"><a>Services entreprise</a></Link>
+      <Link href="/project management"><a>Gestion de projet </a></Link>
       <Link href="/contact"><a>Contact </a></Link>
     </nav>
   )
