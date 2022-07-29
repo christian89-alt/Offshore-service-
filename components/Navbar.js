@@ -7,6 +7,7 @@ import style from "../styles/Home.module.css";
 const Navbar =()=> {
 
   return(
+    
     <nav className="nav">
       
       <div className="logo" role="navigation" aria-label="menu de navigation">
@@ -26,6 +27,7 @@ const Navbar =()=> {
       <Link href="/project management"><a>Gestion de projet </a></Link>
       <Link href="/contact"><a>Contact </a></Link>
     </nav>
+    
   )
 
 

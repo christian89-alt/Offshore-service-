@@ -38,24 +38,24 @@ const Footer =()=> {
         </div>
         <div class="footer-content-column">
           <div class="footer-menu">
-            <h2 class="footer-menu-name"> Company</h2>
+            <h2 class="footer-menu-name"> Offshore Service</h2>
             <ul id="menu-company" class="footer-menu-list">
               <li class="menu-item menu-item-type-post_type menu-item-object-page">
                 <a href="#">Contact</a>
               </li>
               <li class="menu-item menu-item-type-taxonomy menu-item-object-category">
-                <a href="#">News</a>
+                <a href="#">Actualité </a>
               </li>
               <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                <a href="#">Careers</a>
+                <a href="#">Carrière</a>
               </li>
             </ul>
           </div>
           <div class="footer-menu">
-            <h2 class="footer-menu-name"> Legal</h2>
+            <h2 class="footer-menu-name"> Aspect Légal</h2>
             <ul id="menu-legal" class="footer-menu-list">
               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-170434">
-                <a href="#">Privacy Notice</a>
+                <a href="#">Conditions générales</a>
               </li>
               <li class="menu-item menu-item-type-post_type menu-item-object-page">
                 <a href="#">Terms of Use</a>
@@ -65,10 +65,10 @@ const Footer =()=> {
         </div>
         <div class="footer-content-column">
           <div class="footer-menu">
-            <h2 class="footer-menu-name"> Quick Links</h2>
+            <h2 class="footer-menu-name"> Liens divers</h2>
             <ul id="menu-quick-links" class="footer-menu-list">
               <li class="menu-item menu-item-type-custom menu-item-object-custom">
-                <a target="_blank" rel="noopener noreferrer" href="#">Support Center</a>
+                <a target="_blank" rel="noopener noreferrer" href="#">Contact</a>
               </li>
               <li class="menu-item menu-item-type-custom menu-item-object-custom">
                 <a target="_blank" rel="noopener noreferrer" href="#">Service Status</a>
@@ -94,7 +94,7 @@ const Footer =()=> {
             <a class="footer-call-to-action-button button" href="#" target="_self"> Get in Touch </a>
           </div>
           <div class="footer-call-to-action">
-            <h2 class="footer-call-to-action-title"> You Call Us</h2>
+            <h2 class="footer-call-to-action-title"> Nous appeler</h2>
             <p class="footer-call-to-action-link-wrapper"> <a class="footer-call-to-action-link" href="tel:0124-64XXXX" target="_self"> 0124-64XXXX </a></p>
           </div>
         </div>
@@ -131,7 +131,7 @@ const Footer =()=> {
       <div class="footer-copyright">
         <div class="footer-copyright-wrapper">
           <p class="footer-copyright-text">
-            <a class="footer-copyright-link" href="#" target="_self"> ©2020. | Designed By: Pooja Nahelia. | All rights reserved. </a>
+            <a class="footer-copyright-link" href="#" target="_self"> ©2022. | Offshores Services | Tous droits réservés. </a>
           </p>
         </div>
       </div>
