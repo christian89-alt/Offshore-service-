@@ -5,6 +5,8 @@ body {
   background: white;
   color: #333;
   font-family: "Nunito";
+  
+
 }
 a {
   color: #333;
@@ -18,7 +20,7 @@ nav {
   margin: 10px auto 80px;
   padding: 10px 0;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: flex-end;
   border-bottom: 1px solid #ddd;
   text-transform: uppercase;
@@ -40,15 +42,72 @@ footer {
   color: #777;
   border-top: 1px solid #eaeaea;
 }
+.Offshore-title{
+  margin-bottom: 10px;
 
-.card {
-display: flex;
-justify-content: space-evenly;
-flex-direction: row;
-align-items: flex-end;
+  text-align: center;
+  font-size: xX-large;
+  font-weight: 600;
+  color: black;
+}
+.text-view{
+
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: justify;
+  font-size: x-large;
+  font-weight: 400;
+  color: black;
+}
+/* css card*/
+
+.card{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
 
 
 }
+.card-title{
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+}
+.card-image{
+  
+  padding-left: 30px;
+  padding-right: 30px;
+  align-content: center;
+  justify-content: space-evenly;
+  flex-flow: row wrap;  
+  
+ 
+}
+
+.card.paragraphe{
+
+  text-align: justify;
+  font-size: x-large;
+  font-weight: 400;
+}
+/* Caroussel*/
+.Caroussel{
+  padding-top: 15px;
+  margin-top: 15px;
+  display: flex;
+  
+
+}
+
 .p {
   padding-right: 50px;
   margin-right: 30px;

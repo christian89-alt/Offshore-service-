@@ -9,8 +9,8 @@ const Card = () => {
     <div class="card">
       <div class="card-image" image is-4by3 >
         <Image src="/website.jpg" width={300} height={300} />
-        <h2>Création de site </h2>
-        <p>
+        <h2 className="card-title">Création de site </h2>
+        <p className="card-paragraphe">
           Dès sa création, nous concevons votre site internet pour qu'il évolue
           avec votre entreprise et qu'il vous accompagne dans le développement
           de votre chiffre d’affaires. En développant les fonctionnalités de
@@ -22,8 +22,8 @@ const Card = () => {
       </div>
       <div class="card-image" image is-4by3>
         <Image src="/stratégie digitale.jpg" width={300} height={300} />
-        <h2>Stratégie digitale</h2>
-        <p>
+        <h2 className="card-title">Stratégie digitale</h2>
+        <p className="card-paragraphe">
           Dès sa création, nous concevons votre site internet pour qu'il évolue
           avec votre entreprise et qu'il vous accompagne dans le développement
           de votre chiffre d’affaires. En développant les fonctionnalités de
@@ -36,8 +36,8 @@ const Card = () => {
 
       <div class="card-image" image is-4by3>
         <Image src="/entrepreneur.jpg" width={300} height={300} />
-        <h2>Accompagnement créateurs</h2>
-        <p>
+        <h2 className="card-title">Accompagnement créateurs</h2>
+        <p className="card-paragraphe">
         Dès sa création, nous concevons votre site internet pour qu'il évolue
           avec votre entreprise et qu'il vous accompagne dans le développement
           de votre chiffre d’affaires. En développant les fonctionnalités de

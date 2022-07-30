@@ -303,14 +303,4 @@ a {
         width: 49.99%;
     } */
   }
-  /* css card*/
-
-.car{
-    display: block;
-}
-  .card-image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-  }
+  

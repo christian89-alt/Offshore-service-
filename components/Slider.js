@@ -10,7 +10,7 @@ export default class NextJsCarousel extends Component {
 			<div>
 			
 			<Carousel>
-				<div>
+				<div className='Caroussel'>
 					<Image src="/entrepreneur.jPg" alt="image1" width={1380} height={720}/>
 					<p className="legend">Devenez entrepreneur du Web</p>
 

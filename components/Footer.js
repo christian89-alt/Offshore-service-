@@ -52,7 +52,7 @@ const Footer =()=> {
             </ul>
           </div>
           <div class="footer-menu">
-            <h2 class="footer-menu-name"> Aspect Légal</h2>
+            <h2 class="footer-menu-name"> Aspects Légaux</h2>
             <ul id="menu-legal" class="footer-menu-list">
               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-170434">
                 <a href="#">Conditions générales</a>
