@@ -22,7 +22,7 @@ export default class NextJsCarousel extends Component {
 				</div>
 				<div>
 					<Image src="/stratégie digitale.jpg" alt="image3" width={1380} height={720}/>
-					<p className="legend">Image 3</p>
+					<p className="legend">Votre stratégie digitale 3</p>
 
 				</div>
 				<div>
