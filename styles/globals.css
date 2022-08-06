@@ -1,39 +1,49 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap");
 
 body {
+  padding: 0;
+  margin: 0;
   background: white;
   color: #333;
   font-family: "Nunito";
-  
+
 
 }
 a {
-  color: #333;
+  color: rgb(12, 3, 3);
   text-decoration: none;
 }
 .content {
-  max-width: 960px;
+  max-width: 100%;
   margin: 0 auto;
 }
+
 nav {
-  margin: 10px auto 80px;
-  padding: 10px 0;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  border-bottom: 1px solid #ddd;
-  text-transform: uppercase;
-  font-weight: 800;
+
+  
+  width: 100%;
+  display:flex;
   color: white;
-  background-color:rgb(7, 6, 6);
+  align-items: center;
+  justify-items: center;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: black;
+ 
+
 }
 nav a {
   margin-left: 12px;
+  color: white;
 }
+
+
 nav .logo {
   margin-right: auto;
 }
+
+/*css footer */
 footer {
   display: block;
   text-align: center;
@@ -42,7 +52,7 @@ footer {
   color: #777;
   border-top: 1px solid #eaeaea;
 }
-.Offshore-title{
+.Offshore-title {
   margin-bottom: 10px;
 
   text-align: center;
@@ -50,70 +60,33 @@ footer {
   font-weight: 600;
   color: black;
 }
-.text-view{
-
+.text-view {
   margin-top: 10px;
   margin-bottom: 20px;
   text-align: justify;
   font-size: x-large;
-  font-weight: 400;
+  font-weight: 300;
   color: black;
 }
 /* css card*/
 
-.card{
-  padding-top: 50px;
-  padding-bottom: 50px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  justify-content: space-evenly;
-
-
-}
-.card-title{
-
-  padding-top: 15px;
-  padding-bottom: 15px;
-  flex-wrap: wrap;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  text-transform: capitalize;
-}
-.card-image{
+.container{
+  padding: 15px;
+  margin: 15px;
+  width: 330px;
+  height: 530px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   
-  padding-left: 30px;
-  padding-right: 30px;
+  
+  
+  
+}
+.column{
+
+  display: flex;
   align-content: center;
   justify-content: space-evenly;
-  flex-flow: row wrap;  
-  
- 
-}
-
-.card.paragraphe{
-
-  text-align: justify;
-  font-size: x-large;
-  font-weight: 400;
-}
-/* Caroussel*/
-.Caroussel{
-  padding-top: 15px;
-  margin-top: 15px;
-  display: flex;
-  
-
-}
-
-.p {
-  padding-right: 50px;
-  margin-right: 30px;
-  display: flex;
+  justify-items: center;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  text-align: justify;
 }
-

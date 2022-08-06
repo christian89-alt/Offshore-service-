@@ -1,20 +1,27 @@
+import React from "react"
 import Link from "next/link";
-import Image from "next/Image";
+import Image from "next/image"
+import style from "../styles/Home.module.css";
 
-const hero = () => {
-    return (  
 
-        <div class="container">
-  <div class="text">
-    <h1 class="hero">Responsive layouts don’t have
-to be a struggle</h1>
-    <p class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-veniam.</p>
+const Hero =()=> {
+
+    return(
+
+
+<section className="hero is-large is-info">
+  <div className="hero-body">
+    <p className="title">
+      Large hero
+    </p>
+    <p className="subtitle">
+      Large subtitle
+    </p>
   </div>
-  <button><a href="https://courses.kevinpowell.co/courses/conquering-responsive-layouts">I want to learn</a></button>
-</div>
-    );
+</section>
+
+    )
+
 }
- 
-export default hero;
+
+export default Hero;

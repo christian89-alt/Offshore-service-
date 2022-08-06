@@ -1,3 +1,4 @@
+import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -17,8 +18,8 @@ const Footer =()=> {
         <div class="footer-content-column">
           <div class="footer-logo">
             <a class="footer-logo-link" href="#">
-              <span class="hidden-link-text">LOGO</span>
-              <h1>LOGO</h1>
+              <span class="hidden-link-text">Offshore Services</span>
+              <h1>Offshore Service</h1>
             </a>
           </div>
           <div class="footer-menu">
@@ -95,7 +96,7 @@ const Footer =()=> {
           </div>
           <div class="footer-call-to-action">
             <h2 class="footer-call-to-action-title"> Nous appeler</h2>
-            <p class="footer-call-to-action-link-wrapper"> <a class="footer-call-to-action-link" href="tel:0124-64XXXX" target="_self"> 0124-64XXXX </a></p>
+            <p class="footer-call-to-action-link-wrapper"> <a class="footer-call-to-action-link" href="tel:0124-64XXXX" target="_self"> +33 7 67 53 36 25 </a></p>
           </div>
         </div>
         <div class="footer-social-links"> <svg class="footer-social-amoeba-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 54">
