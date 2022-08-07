@@ -10,10 +10,10 @@ import style from "../styles/Home.module.css";
 function index() {
   return (
     <div>
-
-      
-      
-      <h1 className="Offshore-title"> Offshore Service Cabinet conseil en transition numérique </h1>
+      <h1 className="Offshore-title">
+        {" "}
+        Offshore Service Cabinet conseil en transition numérique{" "}
+      </h1>
       <p className="text-view">
         Laborum ullamco aliquip adipisicing fugiat laborum irure commodo
         consequat deserunt ut ullamco excepteur duis. Nulla nisi tempor ullamco
