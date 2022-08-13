@@ -7,7 +7,6 @@ import style from "../styles/Home.module.css";
 const Navbar =()=> {
 
   return(
-   
     
     <nav className="nav">
       

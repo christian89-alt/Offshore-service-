@@ -5,13 +5,19 @@ import Image from "next/image";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Card from "../components/Card";
+import Hero from "../components/Hero";
 import style from "../styles/Home.module.css";
 
 function index() {
   return (
+    
     <div>
+      
       <h1 className="Offshore-title">
+        
         {" "}
+        <Hero/>
+       
         Offshore Service Cabinet conseil en transition numérique{" "}
       </h1>
       <p className="text-view">

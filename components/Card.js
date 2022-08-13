@@ -28,7 +28,7 @@ const Card =()=>{
   <div className="card">
   <Image className="image1"  src="/website.jpg" alt="Avatar" style="width:100%" width={330} height={330}></Image>
   <div className="container">
-    <h4>Création de site</h4>
+    <h4>Création de site </h4>
     <p>Esse ea esse eiusmod deserunt occaecat id amet anim amet occaecat aliquip nulla est consectetur. Nostrud esse Lorem veniam cillum. Et commodo aute laboris sit sint in. Anim reprehenderit commodo fugiat anim officia labore eiusmod excepteur exercitation commodo consequat sunt. Adipisicing deserunt eu esse ea sit laborum culpa tempor. Id consectetur velit aute nulla. Laborum sint excepteur non nulla eiusmod dolore non do pariatur.
     </p>
   </div>

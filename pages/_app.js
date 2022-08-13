@@ -11,12 +11,15 @@ function MyApp({ Component, pageProps }) {
   return(
 
     <div>
+      <>
+      <Hero/>
+      </>
 
 
       
       <Navbar/>
 
-      <Hero/>
+    
 
    
       
