@@ -8,6 +8,7 @@ import Card from "../components/Card";
 import Hero from "../components/Hero";
 import style from "../styles/Home.module.css";
 
+
 function index() {
   return (
     
