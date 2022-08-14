@@ -14,28 +14,28 @@ const Hero =()=> {
               <h2>Cabinet Conseil en Transition Digitale</h2>
               <Carousel>
                   <div>
-                      <img src="/management de projet.jpg" alt="image1"/>
-                      <p className="legend">Image 1</p>
+                      <img src="/management de projet.jpg" alt="image1"width={1250} height={750}/>
+                      <p className="legend">Gestion de projet 1</p>
   
                   </div>
                   <div>
-                      <img src="/Stratégie digitale.jpg" alt="image2" />
-                      <p className="legend">Image 2</p>
+                      <img src="/Stratégie digitale.jpg" alt="image2" width={1250} height={750} />
+                      <p className="legend">Optimiser votre stratégie digitale 2</p>
   
                   </div>
                   <div>
-                      <img src="/website.jpg" alt="image3"/>
-                      <p className="legend">Image 3</p>
+                      <img src="/website.jpg" alt="image3"width={1250} height={750}/>
+                      <p className="legend">Creation de site vitrine sous Wordpress</p>
   
                   </div>
                   <div>
-                      <img src="/cardjavascript.png" alt="image4"/>
-                      <p className="legend">Image 4</p>
+                      <img src="/cardjavascript.png" alt="image4" width={1250} height={750}/>
+                      <p className="legend">Application web sur mesure</p>
   
                   </div>
                   <div>
-                      <img src="/entrepreneur.jpg" alt="image5"/>
-                      <p className="legend">Image 5</p>
+                      <img src="/entrepreneur.jpg" alt="image5" width={1250} height={750}/>
+                      <p className="legend">Entreprendre et optimiser votre entreprise 5</p>
   
                   </div>
               </Carousel>
