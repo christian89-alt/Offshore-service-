@@ -30,7 +30,7 @@ nav {
   justify-content: space-evenly;
   text-transform: uppercase;
   font-weight: 600;
-  background-color: rgb(237, 236, 243);
+  background-color: rgb(14, 78, 216);
  
 
 }
@@ -115,7 +115,8 @@ footer {
 /*contact */
 
 html{
-  background:url(https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260) no-repeat;
+  background-color: #FFF;
+  background:url(https://1.bp.blogspot.com/-K1nwp7Qlrbc/YFeGml2dQAI/AAAAAAAAAgI/QjmQxreSygklhJBl2MDCFZMw9CrZOtbGwCLcBGAsYHQ/s16000/friends-3175059_1280.jpg) no-repeat;
   background-size: cover;
   height:100%;
   background-color: #000;
@@ -127,13 +128,10 @@ html{
   -webkit-font-smoothing:antialiased;
   -moz-font-smoothing:antialiased;
   -o-font-smoothing:antialiased;
-  font-smoothing:antialiased;
+  -font-smoothing:antialiased;
   text-rendering:optimizeLegibility;
 }
-body {
-  color: #C0C0C0;
-  font-family: Arial, san-serif;
-}
+
 
 
 /* Contact Form Styles */
@@ -144,7 +142,7 @@ h4{
   margin: 0 0 20px 0;
 }
 #contact-form {
-  background-color:rgba(72,72,72,0.9);
+  background-color:rgba(236, 230, 230, 0.9);
   padding: 10px 20px 30px 20px;
   max-width:100%;
   float: left;
@@ -217,7 +215,7 @@ input:required, textarea:required {
 } 
 #contact-form .required {  
   font-weight:bold;  
-  color: #E5E6E7;      
+  color: #0e0c0c;      
 }
 
 /* Hide success/failure message

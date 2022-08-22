@@ -19,7 +19,7 @@ const Navbar =()=> {
       <span aria-hidden="true"></span>
     </a>
   </div>
-        <Image src="/Logo.png" width={256} height={128} />
+        <Image src="/Logo2.png" width={256} height={128} />
       </div>
       <Link href="/"><a>Accueil</a></Link>
       <Link href="/dev web"><a>Développement web & Mobile </a></Link>
