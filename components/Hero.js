@@ -1,8 +1,6 @@
 import React from "react"
 import Link from "next/link";
 import Image from "next/image"
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from 'react-responsive-carousel';
 
 
 const Hero =()=> {
@@ -11,34 +9,31 @@ const Hero =()=> {
 
 
 <div>
-              <h2>Cabinet Conseil en Transition Digitale</h2>
-              <Carousel>
-                  <div>
-                      <img src="/management de projet.jpg" alt="image1"width={1250} height={500}/>
-                      <p className="legend">Gestion de projet 1</p>
-  
-                  </div>
-                  <div>
-                      <img src="/Stratégie digitale.jpg" alt="image2" width={1250} height={500} />
-                      <p className="legend">Optimiser votre stratégie digitale 2</p>
-  
-                  </div>
-                  <div>
-                      <img src="/website.jpg" alt="image3"width={1250} height={500}/>
-                      <p className="legend">Creation de site vitrine sous Wordpress</p>
-  
-                  </div>
-                  <div>
-                      <img src="/cardjavascript.png" alt="image4" width={1250} height={500}/>
-                      <p className="legend">Application web sur mesure</p>
-  
-                  </div>
-                  <div>
-                      <img src="/entrepreneur.jpg" alt="image5" width={1250} height={750}/>
-                      <p className="legend">Entreprendre et optimiser votre entreprise 5</p>
-  
-                  </div>
-              </Carousel>
+<nav class="navbar">
+  <div class="containernav">
+    <div id="navMenu" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item">
+          Accueil
+        </a>
+        <a class="navbar-item">
+          Développement  web
+        </a>
+      </div>
+
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <a class="button is-dark">Conseil entreprise</a>
+            <a class="button is-link">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+           
             </div>
 
     )

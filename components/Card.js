@@ -20,7 +20,7 @@ const Card =()=>{
   <div className="card">
   <Image className="image1" src="/entrepreneur.jpg" alt="Avatar" style="width:100%" width={330} height={330}></Image>
   <div class="container">
-    <h4 className="h4">Accompagnement et gestion d'entreprise</h4>
+    <h4 className="h4">Transition digitale</h4>
     <p className="paragraphe1">Occaecat duis est cillum veniam est et tempor. Elit dolor elit laborum sint esse minim eiusmod quis aliquip magna. Ad in anim id id veniam ullamco Lorem veniam aute duis culpa.</p>
   </div>
 </div></div>

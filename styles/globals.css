@@ -6,9 +6,36 @@ body {
   margin: 0;
   background: white;
   color: #333;
-  font-family: "Nunito";
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 
+}
+/* navdesign */
+.containernav{
+  
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: larger;
+}
+.navMenu{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+
+}
+.navbar-start{
+  display: flex;
+  flex-wrap: wrap;
+}
+.navbar-item{
+  display:block;
+  align-items: center;
+  font-size: large;
+  width: 100%;
 }
 a {
   color: rgb(12, 3, 3);
@@ -20,17 +47,16 @@ a {
 }
 
 nav {
-
-  
+  padding-right:45px;
   width: 100%;
   display:flex;
   color: white;
   align-items: center;
   justify-items: center;
-  justify-content: space-evenly;
   text-transform: uppercase;
   font-weight: 600;
-  background-color: rgb(14, 78, 216);
+  background-color: rgb(12, 11, 12);
+
  
 
 }
@@ -50,27 +76,14 @@ nav .logo {
 footer {
   display: block;
   text-align: center;
+  font-size: larger;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   padding: 30px 0;
   margin-top: 60px;
-  color: #777;
+  color: rgb(8, 8, 8);
   border-top: 1px solid #eaeaea;
 }
-.Offshore-title {
-  margin-bottom: 10px;
 
-  text-align: center;
-  font-size: xX-large;
-  font-weight: 600;
-  color: black;
-}
-.text-view {
-  margin-top: 10px;
-  margin-bottom: 20px;
-  text-align: justify;
-  font-size: x-large;
-  font-weight: 300;
-  color: black;
-}
 /* css card*/
 
 .container{
@@ -96,7 +109,11 @@ footer {
 }
 .image1{
   border-radius: 50%;
-  width: 150px;
+  width: 90px;
+  padding-top: 50px;
+  margin-top: 50px;
+  display: block;
+  align-content: center;
 
 }
 .paragraphe1{
