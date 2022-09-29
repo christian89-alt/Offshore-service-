@@ -1,7 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import '../styles/globals.css';
-import '../styles/burger.css';
-import Navbar from "../components/Navbar";
 import Footer from 'react-bulma-components';
 import { Hero } from 'react-bulma-components';
 
@@ -18,7 +16,6 @@ function MyApp({ Component, pageProps }) {
 
 
       
-      <Navbar/>
 
     
 

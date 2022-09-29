@@ -7,34 +7,47 @@ const Hero =()=> {
 
     return(
 
+     <section>
+  
+  
+  <nav className="nav">
+  
 
-<div>
-<nav class="navbar">
-  <div class="containernav">
-    <div id="navMenu" class="navbar-menu">
-      <div class="navbar-start">
-        <a class="navbar-item">
-          Accueil
-        </a>
-        <a class="navbar-item">
-          Développement  web
-        </a>
-      </div>
-
-      <div class="navbar-end">
-        <div class="navbar-item">
-          <div class="buttons">
-            <a class="button is-dark">Conseil entreprise</a>
-            <a class="button is-link">Contact</a>
-          </div>
-        </div>
-      </div>
-    </div>
+      
+      <div className="logo" role="navigation" aria-label="menu de navigation">
+      <div class="navbar-brand">
+    
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
   </div>
-</nav>
+
+      </div>
+      <Link href="/"><a>Accueil</a></Link>
+      <Link href="/dev web"><a>Développement web & Mobile </a></Link>
+      <Link href="/entreprenariat"><a>Services entreprise</a></Link>
+      <Link href="/project management"><a>Gestion de projet </a></Link>
+      <Link href="/contact"><a>Contact </a></Link>
+      <div class="hero-body">
+  </div>
+  
+    </nav>
+</section>
+       
+        
+      
+  
+
+    
+
+
+  
+
 
            
-            </div>
+
 
     )
 
