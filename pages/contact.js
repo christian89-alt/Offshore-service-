@@ -2,18 +2,20 @@ import React from "react";
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
-import Hero from "../components/Hero";
-
 import Footer from "../components/Footer";
-import style from "../styles/Home.module.css";
-import { Hero } from "react-bulma-components";
+import Hero from "../components/Hero";
+import Card from "../components/Card";
+
 
 
 export default function Contact(){
 
     return(
+		
 
-        
+
+		
+	
 <div id="contact-form">
 	<div>
 		<h1>Ravi de vous entendre!!</h1>

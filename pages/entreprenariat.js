@@ -1,9 +1,11 @@
 import React from "react";
 import Head from "next/head";
 import Link from "next/link";
-import Hero from "../components/Hero";
+import Image from "next/image";
 import Footer from "../components/Footer";
-import style from "../styles/Home.module.css";
+import Hero from "../components/Hero";
+import Card from "../components/Card";
+
 
 
 const About = () => {

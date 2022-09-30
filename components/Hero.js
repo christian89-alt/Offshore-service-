@@ -26,9 +26,10 @@ const Hero =()=> {
 
       </div>
       <Link href="/"><a>Accueil</a></Link>
-      <Link href="/dev web"><a>Développement web & Mobile </a></Link>
+      <Link href="/dev"><a>Développement web & Mobile </a></Link>
       <Link href="/entreprenariat"><a>Services entreprise</a></Link>
-      <Link href="/project management"><a>Gestion de projet </a></Link>
+      <Link href="/project"><a>Gestion de projet </a></Link>
+      <Link href="/portfolio"><a>Portfolio </a></Link>
       <Link href="/contact"><a>Contact </a></Link>
       <div class="hero-body">
   </div>
