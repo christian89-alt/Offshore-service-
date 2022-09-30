@@ -8,33 +8,26 @@ import Card from "../components/Card";
 import OffshoreTitle from "../components/OffshoreTitle";
 
 
-
-
-
 function index() {
   return (
-    
     <div>
-      
-      
       <h1 className="Offshore-title">
-        
         {" "}
-        <Hero/>
-       
-        Offshore Service Cabinet conseil en transition numérique{" "}
+        <Hero />
+        L'artisan de votre succès!!!{" "}
       </h1>
       <p className="text-view">
-        Laborum ullamco aliquip adipisicing fugiat laborum irure commodo
-        consequat deserunt ut ullamco excepteur duis. Nulla nisi tempor ullamco
-        velit commodo ut dolore laborum. Ea commodo nisi irure incididunt anim
-        enim labore velit nostrud consectetur duis consequat Lorem velit.
-        Ullamco ullamco consectetur do culpa qui minim consectetur dolor
-        eiusmod. Proident quis quis exercitation excepteur irure deserunt anim
-        irure minim. Anim laborum nulla anim mollit fugiat eiusmod consectetur.
-        Ullamco fugiat esse incididunt aute nostrud dolore nisi et eiusmod
-        cillum dolore consequat.
+      Nous sommes une agence de conception et d'ingénierie web troyenne spécialisée dans le développement de sites et d'applications sur mesure. Nous privilégions une approche agile et transparente, basée sur des technologies solides et éprouvées (Laravel, Vue.js, React Native) afin que vos projets soient capables d'évoluer aisément dans ce vaste écosystème qu'est le web.
+
+Ainsi, quel que soit le besoin, nous mettons tout en œuvre pour créer des outils adaptés à votre métier, faciles à utiliser, qui plaisent à nos clients mais aussi et surtout aux clients de nos clients…
+
+… et toujours dans la bonne humeur !
+       
       </p>
+      <div className="puce">
+        <li>Html 5, Css3, Javascript</li>
+        <li>NextJs, React</li>
+      </div>
 
       <Card />
 

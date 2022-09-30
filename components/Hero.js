@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image"
 
 
+
 const Hero =()=> {
 
     return(
@@ -11,10 +12,10 @@ const Hero =()=> {
   
   
   <nav className="nav">
-  
+    
 
       
-      <div className="logo" role="navigation" aria-label="menu de navigation">
+    <div className="logo" role="navigation" aria-label="menu de navigation">
       <div class="navbar-brand">
     
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -33,6 +34,12 @@ const Hero =()=> {
       <Link href="/contact"><a>Contact </a></Link>
       <div class="hero-body">
   </div>
+
+
+  
+  
+
+      
   
     </nav>
 </section>
